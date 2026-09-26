@@ -1,0 +1,14 @@
+{
+  "name": "andre-rocha-elite-performance",
+  "private": true,
+  "description": "Cinematic 3D landing page (Three.js + Tailwind CSS) — portfolio example.",
+  "scripts": {
+    "build:css": "tailwindcss -i css/tailwind-input.css -o css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i css/tailwind-input.css -o css/tailwind.css --watch",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
